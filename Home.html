@@ -4,14 +4,20 @@
 <head>
     <title>Page Title</title>
     <link rel="stylesheet" href="Styles.css" />
+    
 </head>
 
 <body>
-    <video controls autoplay loop>
-        <source src="Images/Montage.mp4" type="video/mp4">
-    </video>
-        
-        <div class= "nav">
+    
+    <div class= "video">
+    
+        <video width="100%" id="video-bg-elem" preload="auto" autoplay="true" loop="loop" muted="muted">
+            <source src="Images/Montage.mp4" type="video/mp4">
+            Video not supported
+        </video>
+    </div>
+    
+   <div class= "nav">
          <div class="links">
                 <a href="#"><span class="salmon">HOME</span></a> 
                 &bull;
@@ -31,6 +37,9 @@
     <p>Photography and film</p>
 </div>
 
+
+   
+        
     
 </body>
 </html>
