@@ -1,0 +1,31 @@
+body{
+    background-color:#f2f2f1;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.nav{
+    float: left;
+    font-size: 1.68em;
+    padding left: 59px;
+    padding-top: 300px;
+    padding-bottom: 300px; 
+    background-color:#aeaeae;
+    padding-right: 54px;
+    color:#ffb968;
+    
+
+}
+
+.nav2{
+    margin-bottom: 100px;
+    color:#ffb968;
+}
+
+.logo{
+    
+    text-align: left;
+    padding-top: 50px;
+    
+    
+}
