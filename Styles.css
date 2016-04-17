@@ -32,59 +32,8 @@ body{
     padding-right: 10px;
 }
 
-.logo{
-    color: white;
-    width: 250px;
-    float: left;
-    margin-top: 28px;
-    font-size: 1.4em;
-}
-
-.salmon{
-    color: #f06c64;
-}
-
-.banner{
-    background-color: #f06c64;
-    text-align: center;
-    padding-top: 50px;
-    
-    
-}
-
-.subhead{
-    color: #666d89;
-    font-size: 1.7em;
-    font-family: "Myriad Pro";
-    padding-left: 30px;
-    padding-top: 45px;
-    font-weight: 200;
-    text-align: left;
-}
-
-.mainbodytext{
-    color:#666d89;
-    font-family: "Myriad Pro";
-    font-size: 1.2em;
-    padding-left: 30px;
-    padding-bottom: 50px;
-    padding-top: 20px;
-    text-align: left;
-}
-
-
-@media screen and(max-width: 670px) {
-    .header{
-        height: 120px;
-    }
-    
-    .links{
-        margin-top: 0px;
-    }
-}
-
 .TitleText{
-    color: #48f049;
+    color: #ffffff;
     font-family: ;
     font-size: 4em;
     text-align: center;
@@ -92,6 +41,21 @@ body{
     line-height: 10px;
 }
 
-.video{
-    z-index: -1;
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
