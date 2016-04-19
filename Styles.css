@@ -73,3 +73,10 @@ body{
     z-index: -100;
     img
 }
+
+.Logo{
+    padding-left: 100px;
+    padding-top: 20px;
+    width=10px;
+    height=10px; 
+}
